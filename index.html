@@ -4,6 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator Practice Vasyl Bakhmut</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="calculator-input-section">
+          <input class="result" type="text" placeholder="6000/2+3227*2" /><input
+            class="total"
+            type="text"
+            placeholder="=12,454"
+          />
+        </div>
+        <div class="calculator-btns-section">
+          <div class="calculator-btns-section_top-line">
+            <button id="ac" class="grey-btn">Ac</button
+            ><button id="del" class="grey-btn">Del</button
+            ><button id="slash" class="main-blue-btn">/</button
+            ><button id="multip" class="main-blue-btn">*</button>
+          </div>
+          <div class="calculator-btns-section_main-block">
+            <div class="calculator-btns-section_main-block-numbers">
+              <div class="calculator-btns-section_main-block-numbers-num">
+                <button id="seven" class="main-btn">7</button
+                ><button id="eight" class="main-btn">8</button
+                ><button id="nine" class="main-btn">9</button
+                ><button id="four" class="main-btn">4</button
+                ><button id="five" class="main-btn">5</button
+                ><button id="six" class="main-btn">6</button
+                ><button id="one" class="main-btn">1</button
+                ><button id="two" class="main-btn">2</button
+                ><button id="three" class="main-btn">3</button>
+              </div>
+              <div class="calculator-btns-section_main-block-numbers-zero">
+                <button id="zero" class="zero-btn">0</button
+                ><button id="dot" class="main-btn">.</button>
+              </div>
+            </div>
+            <div class="calculator-btns-section_main-block-action">
+              <button id="minus" class="main-blue-btn">-</button
+              ><button id="plus" class="plus-btn">+</button
+              ><button id="equal" class="equals-btn">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
 </html>
