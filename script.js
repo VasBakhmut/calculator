@@ -50,7 +50,7 @@ document.querySelector(".calculator-btns-section").onclick = (event) => {
     return;
   }
 
-  // pressed eqol
+  // pressed equal
 
   if (key === "=") {
     if (b === "") b = a;
